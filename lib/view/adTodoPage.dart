@@ -65,7 +65,7 @@ class _AdddToDoPageState extends State<AdddToDoPage> {
                       .then((value) => controller.fetchTodo())
                   : controller
                       .submitData(
-                          controllerDescription, controllerTitle, context)
+                          controllerTitle, controllerDescription, context)
                       .then((value) => Navigator.pop(context))
                       .then((value) => controller.fetchTodo());
             },

@@ -47,10 +47,10 @@ class HomeView extends StatelessWidget {
                   ),
                 ],
               )),
-          body: const TabBarView(
+          body: TabBarView(
             children: [
               AllView(),
-              FolderView(),
+              const FolderView(),
             ],
           ),
         ));
